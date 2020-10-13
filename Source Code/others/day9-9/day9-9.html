@@ -1,0 +1,58 @@
+<html>
+	<head>
+		<title>Introducing the CSS</title>
+		<style type="text/css">
+			body{
+				color:#000000; <!--font color-->
+				background-color:#fffff0; <!--bg color-->
+				font-family:arial,verdana,sans-serif;
+			}
+			h1{
+				font-size:18pt;
+			}
+			p{font-size:12pt;}
+		
+		</style>
+	</head>
+	<body>
+		<div class="chapter 1">
+			<p>
+				<h1>This is an <b>H1</b> title.</h1>
+				This is <font color="red">not</font> an H1 title,
+			</p>
+			<p>
+				This is a Table:<br>
+				<table>
+					<tr>
+						<td style="font-family:courier;
+							padding:5px;
+							border-style:solid;
+							border-width:1px;
+							border-color:#000000;">
+							1
+						</td>
+						<td>1</td>
+					</tr>
+				</table>
+			</p>
+			<p>
+				<b>We have multiple Selectors except Basic ones like "*{}"or "h1,h2,p{}":
+				</b>
+				<dl>
+					<dt>The Class Selector</dt>
+					<dd>&lt;p class="BackgroundNote"&gt;<br>.BackgroundNote{}<br>p.BackgroundNote{}</dd>
+					<dt>The ID Selector</dt>
+					<dd>p#abstract</dd>
+				</dl>
+				<b>Pseudo-classes</b>
+				<table style="border-width:1px; border-style:solid;">
+					<tr style="font-weight:bold"><td>Pseudo-classes</td><td>Purpose</td></tr>
+					<tr><td><a href="about:blank" target="_blank">link</a></td><td>style for links in general</td></tr>
+					<tr><td>visited</td><td>style for links that have already been visited</td></tr>
+					<tr><td>active</td><td>style for links that are currently active(being clicked)</td></tr>
+					<tr><td>hover</td><td>style for when someone is hovering over a link</td></tr>
+				</table>
+			</p>
+		</div>
+	</body>
+</html>

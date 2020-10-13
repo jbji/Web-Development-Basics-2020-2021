@@ -1,0 +1,159 @@
+* {
+    margin: 0px;
+    padding: 0px; 
+	font-weight: lighter;
+	font-family:"Segoe UI",sans-serif,serif;
+}
+
+html {
+	height: 100%;
+}
+
+body{
+	background-color: rgb(255,255,255);
+	height: 100%;
+}
+a{
+	margin-left: 3px;
+	margin-right: 3px;
+	text-decoration: none;
+	color: rgb(55,55,55);
+}
+a:hover{
+	color: rgb(10,10,10);
+}
+
+
+/*导航栏*/
+div.navi {
+    overflow: hidden;
+    font-family: "Segoe UI", sans-serif, serif;
+    color: #000;
+
+    width: 100%;
+    height: 2.1em;
+    padding-top: 0;
+
+    background-color: #fff;
+
+    position: fixed;
+
+    box-shadow: 0 1px 3px rgb(0, 0, 0, .4);
+}
+
+div.navi-logo,
+div.navi-item,
+div.navi-search{
+	display:inline-block;
+    float: left;
+    width: 7.04em;
+
+    text-align: center;
+    color: #047;
+    border-radius: 10em;
+
+    position: relative;
+    top: 0.1em;
+
+}
+div.navi-logo {
+	width: 8em;
+    color: #047;
+}
+
+div.navi-item a {
+    display: block;
+
+    text-decoration: none;
+
+    margin-top: 0;
+    height: 1.5em;
+
+}
+
+div.navi-item a:hover {
+    background-color: #eee;
+}
+
+div.navi-search {
+	position: relative;
+/*	top:-13%;*/
+	right: -3%;
+    float: right;
+    color: rgb(0,0,0);
+    width:30%;
+}
+
+div.navi-dropdown{
+	display: none;
+	position: absolute;
+	min-width: 160px;
+}
+
+div.navi-item a:hover div.navi-dropdown{
+    display: block;
+}
+
+input[type=text]{
+	width: 50%;
+	font-size: .88em;
+	color: rgb(170,170,170);
+	padding: .068em .068em .068em 1em;
+	text-align: left;
+	align-self: center;
+	border: 1px solid rgb(155,155,155);
+	/*border-radius: 1vw;*/
+	border-radius: 0;
+}
+.button,button,input[type=submit]{
+
+	width: 20%;
+	font-size: 1.1em;
+	color: white;
+
+	background-color: rgb(1, 107, 171);
+	border:none;
+	border-radius: 0;
+	
+	cursor: pointer;
+	margin-left: 0.468em;
+	padding: 0.23em;
+
+	text-align: center;
+
+}
+
+.button{
+	display: inline-block;
+}
+input[type=submit]:hover {
+  background-color: rgb(1,73,126);
+}
+
+div.copyright{ /*container*/
+	clear:both;
+	color: rgb(0,0,0);
+	font-family:"Segoe UI",sans-serif,serif;
+	font-size: 15px;
+	text-align: left;
+	
+	overflow: hidden;
+	display: -webkit-flex;
+    display: flex;
+	justify-content: space-between;
+
+
+	padding: 16% 7% 7%;
+	margin-top: 5%;
+
+	position: relative;
+	bottom: 0px;
+
+	background-color: rgb(227,227,227);
+	
+}
+
+div.cp-item a{
+	color: rgb(10,10,10);
+	text-decoration: none;
+}

@@ -1,0 +1,89 @@
+/*This is a CSS file for aboutme html*/
+
+
+/*内容栏*/
+div.content {
+	font-family:"Segoe UI",sans-serif,serif;
+	font-size:20px;
+	padding: 95px;
+	background-color: rgb(246,246,246,1);
+}
+
+div.content-1 {
+	font-family:"Segoe UI",sans-serif,serif;
+	font-size:20px;
+	padding: 95px;
+	background-color: rgb(255,255,255,1);
+}
+
+div.flex-container {
+    
+    width: 100%;
+    justify-content: space-between;
+    background-color: rgb(246,246,246,1);
+}
+ 
+div.flex-item {
+    background-color: rgb(246,246,246,1);
+    width: 50%;
+}
+
+
+/*banner*/
+div.banner{
+	color: rgb(255,255,255);
+	font-family:"Segoe UI",sans-serif,serif;
+	font-size: 3.5vw;
+	/*0,120,212*/
+	background-image: linear-gradient(45deg,rgb(0,143,219),rgb(0,68,119));
+	
+	height: 25%;
+
+	padding: 95px;
+	padding-top: 35%;
+
+	
+	/*padding-left:5px;*/
+}
+
+
+/*定义具体内容的样式*/
+a{ /*超链接*/
+	color: rgb(10,10,10);
+	text-decoration: none;
+}
+a:hover{ /*超链接*/
+	color: black;
+}
+
+b{ /*粗体*/
+	font-weight: normal;
+}
+
+p{
+	margin-top: 3px;
+	margin-bottom: 2px;
+}
+h1.content {
+	font-weight: lighter;
+	font-size: 40px;
+	text-align: center;
+	margin-top: 15px;
+	margin-bottom: 55px;
+}
+h2.content {
+	font-weight: lighter;
+	font-size: 35px;
+	text-align: center;
+	margin-top: 15px;
+	margin-bottom: 55px;
+}
+
+h2{
+	opacity: 0.4;
+}
+
+dd, li{
+	color: rgb(125,125,125);
+	text-indent:50px;
+}
